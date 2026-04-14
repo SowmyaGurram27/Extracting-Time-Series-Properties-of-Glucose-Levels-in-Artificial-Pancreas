@@ -18,7 +18,7 @@ In this project, we are considering the Artificial Pancreas medical control syst
 
 
 
-Note that this process also requires manual intervention. The Guardian Link Transmitter®, powers the CGM sensor and sends the data to the MiniMed 670G® insulin pump. The insulin pump utilizes the Smart Guard Technology that modulates the insulin delivery based on the CGM data. The SmartGuard Technology uses a Proportional, Integrative, and Derivative controller to derive small bursts of insulin also called Micro bolus to be delivered to the user. During meals, the user uses a BolusWizard to compute the amount of food bolus required to maintain blood glucose levels. The user manually estimates the amount of carbohydrate intake and enters it to the Bolus Wizard. 
+Note that this process also requires manual intervention. The Guardian Link Transmitter®, powers the CGM sensor and sends the data to the MiniMed 670G® insulin pump. The insulin pump utilizes the Smart Guard Technology that modulates the insulin delivery based on the CGM data. The SmartGuard Technology uses a Proportional, Integrative, and Derivative controller to derive small bursts of insulin also called Micro bolus to be delivered to the user. During meals, the user uses a BolusWizard to compute the amount of food bolus required to maintain blood glucose levels. The user manually estimates the amount of carbohydrate intake and enters it to the Bolus Wizard.
 
 
 
@@ -114,7 +114,7 @@ to 288.
 
 
 
-You have to extract these metrics for each day and then report the mean value of each metric over all
+We have to extract these metrics for each day and then report the mean value of each metric over all
 
 days. Hence there are 18 metrics to be extracted.
 
@@ -125,4 +125,14 @@ The metrics will be computed for two cases:
 ● Case A: Manual mode
 
 ● Case B: Auto mode
+
+
+
+
+
+##### Steps to Execute Code:
+
+&nbsp;
+
+Run the main.py which in turn generates the Result.csv
 
