@@ -1,5 +1,0 @@
-Steps to Execute Code:
- 
-1. Unzip the file Sowmya_Gurram_Project1.zip then run the main.py which in turn generates the Result.csv
-
-
